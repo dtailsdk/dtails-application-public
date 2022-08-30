@@ -1,17 +1,5 @@
 # dtails-application
 
-Welcome to Round 2 of the application process!
-Our main goal with this test is to get a relevant idea of your programming skills, specifically HTML, CSS, and Javascript. Furthermore, the exercise will challenge you to learn a little bit of Shopify Liquid.
-
-This will be a three step process:
-
-**Step 1:** We will give you a few days to prepare with some relevant documentation links and setting up some tooling.
-
-**Step 2:** You will choose a day that suits you to complete the test. Available days are the 16th to the 19th September.
-
-**Step 3:** At *9.00 on the chosen day of your preference* we will send you an email with a link to our Github repo, which will contain a Readme with a full task description and the process for completion. You will fork the repo and have 12 hours to complete the task. That means that the deadline for completion is ***at 21.00 the same day***.  
-We do not expect the task to take more than 4 hours, so the 12 hours is available in order for you to fit it into your day. We do expect regular commits throughout the task so that we can follow you work, but more on that later!  
-
 
 ## Preparation
 
@@ -21,7 +9,7 @@ You will only have access to viewing your specific theme in the frontend,
 To get started, the most important thing is for you to get aquainted with the Themekit CLI.
 https://shopify.dev/themes/tools/theme-kit
 Be aware that there is a new Shopify CLI for working with themes as well, but this is not relevant for our process at the moment.
-Please read through the general documentation, especially https://shopify.dev/themes/tools/theme-kit/getting-started. 
+Please read through the general documentation, especially https://shopify.dev/themes/tools/theme-kit/getting-started.
 Here you will be guided on how to install the CLI. However, you can safely ignore Steps 2-5. We will be providing you with a config.yml file in the repo, that will contain a Themekit password. You will only be responsible for updating the config file with a relevant Theme ID (which we will provide), and running the basic `theme watch` command.
 
 Next, take a look at how Shopify's theme architecture looks: https://shopify.dev/themes/architecture.
@@ -60,10 +48,13 @@ Therefore you do not have to apply any of this functionality to other templates/
 
 The task has two parts:
 
-**Part 1: Secondary product image on mouse hover**
+**Part 1: Secondary product image on mouse hover, and SALE badge**
 
 Each product in our shop has both a featured image and a gallery of extra images. Your job is to create a nice animation effect that will overlay the secondary image of the product when hovering over the element with a mouse. When the mouse leaves again, the featured image should switch back.
 You are free to implement this using pure CSS, Javascript, or a combination of both.
+
+Furthermore, we would also like to display a SALE badge somewhere on the grid item. Feel free to get inspired from other shops (use SVGs, icons, or just plain text), and just hardcode the logic. I.e., the products don't actually have to be on sale.
+
 
 **Part 2: API based currency conversion of product prices**
 
